@@ -14,7 +14,7 @@ public class Task21 {
         String str = "Это строка";
         GregorianCalendar startString = new GregorianCalendar();
         for (int i = 0; i < 10000; i++) {
-            str +=" ещё одну строку";
+            str += " ещё одну строку";
         }
         GregorianCalendar endString = new GregorianCalendar();
 
