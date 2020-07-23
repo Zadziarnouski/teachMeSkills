@@ -56,6 +56,13 @@ public class Task24 {
                 return hours * 3600 + minutes * 60 + seconds;
             }
 
+            public int compareTo(intervalOfTime ob) {
+                if (this.statisticOfSeconds() > ob.statisticOfSeconds()) {
+                    return 1;
+                } else if (this.statisticOfSeconds() < ob.statisticOfSeconds()) {
+                    return -1;
+                } else return 0;
+            }
 
             @Override
             public String toString() {
@@ -63,12 +70,13 @@ public class Task24 {
             }
         }
 
+
         intervalOfTime t1 = new intervalOfTime(3600);
         intervalOfTime t2 = new intervalOfTime(1, 0, 0);
-        System.out.println(t1.compareTo(t2));
+
         System.out.println(t1.toString());
         System.out.println(t2.toString());
-
+        System.out.println(t1.compareTo(t2));
 
     }
 }
