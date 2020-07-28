@@ -10,7 +10,6 @@ import java.util.GregorianCalendar;
 
 public class Task21 {
     public static void main(String[] args) {
-        //String
         String str = "Это строка";
         GregorianCalendar startString = new GregorianCalendar();
         for (int i = 0; i < 10000; i++) {
