@@ -5,8 +5,8 @@ public class CivilTransport extends AirTransport {
     private boolean hasBusinessClass;
     private double powerKilowatts = power * 0.74;
 
-    CivilTransport(int numberOfPassengers, boolean hasBusinessClass) {
-        super(61, 2000);
+    public CivilTransport(int power, int maxSpeed, int weight, String brand, int wingspan, int minimumRunwayLengthForTakeOff,int numberOfPassengers, boolean hasBusinessClass) {
+        super(power,maxSpeed,weight,brand,wingspan,minimumRunwayLengthForTakeOff);
         this.numberOfPassengers = numberOfPassengers;
         this.hasBusinessClass = hasBusinessClass;
     }

@@ -4,8 +4,8 @@ public class LandTransport extends Transport {
     private int numberOfWheels;
     private double fuelConsumption;
 
-    LandTransport(int numberOfWheels, double fuelConsumption) {
-        super(400, 250, 2275, "BMW X5 M50d");
+    public LandTransport(int power, int maxSpeed, int weight, String brand, int numberOfWheels, double fuelConsumption) {
+        super(power, maxSpeed, weight, brand);
         this.numberOfWheels = numberOfWheels;
         this.fuelConsumption = fuelConsumption;
     }

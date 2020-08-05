@@ -5,8 +5,8 @@ public class MilitaryTransport extends AirTransport {
     private boolean hasEjectionSystem;
     private double powerKilowatts = power * 0.74;
 
-    MilitaryTransport(int numberOfMissiles, boolean hasEjectionSystem) {
-        super(30, 500);
+    public MilitaryTransport(int power, int maxSpeed, int weight, String brand, int wingspan, int minimumRunwayLengthForTakeOff, int numberOfMissiles, boolean hasEjectionSystem) {
+        super(power, maxSpeed, weight, brand, wingspan, minimumRunwayLengthForTakeOff);
         this.numberOfMissiles = numberOfMissiles;
         this.hasEjectionSystem = hasEjectionSystem;
     }

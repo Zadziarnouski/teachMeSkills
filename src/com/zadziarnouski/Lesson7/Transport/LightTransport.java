@@ -6,8 +6,8 @@ public class LightTransport extends LandTransport {
     private double powerKilowatts = power * 0.74;
     private int distance;
 
-    LightTransport(String carBodyType, int numberOfPassengers) {
-        super(4, 7.2);
+    public LightTransport(int power, int maxSpeed, int weight, String brand, int numberOfWheels, double fuelConsumption, String carBodyType, int numberOfPassengers) {
+        super(power, maxSpeed, weight, brand, numberOfWheels,fuelConsumption);
         this.carBodyType = carBodyType;
         this.numberOfPassengers = numberOfPassengers;
     }

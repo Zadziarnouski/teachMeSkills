@@ -4,8 +4,8 @@ public class FreightTransport extends LandTransport {
     private int liftingCapacity;
     private double powerKilowatts = power * 0.74;
 
-    FreightTransport(int liftingCapacity) {
-        super(4, 7.2);
+    public FreightTransport(int power, int maxSpeed, int weight, String brand,int numberOfWheels,double fuelConsumption, int liftingCapacity) {
+        super(power, maxSpeed, weight, brand,numberOfWheels,fuelConsumption);
         this.liftingCapacity = liftingCapacity;
     }
 

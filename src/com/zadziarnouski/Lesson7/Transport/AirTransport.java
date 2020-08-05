@@ -4,8 +4,8 @@ public class AirTransport extends Transport {
     private int wingspan;
     private int minimumRunwayLengthForTakeOff;
 
-    AirTransport(int wingspan, int minimumRunwayLengthForTakeOff) {
-        super(90000, 965, 135870, "Boeing");
+    public AirTransport(int power, int maxSpeed, int weight, String brand, int wingspan, int minimumRunwayLengthForTakeOff) {
+        super(power, maxSpeed, weight, brand);
         this.wingspan = wingspan;
         this.minimumRunwayLengthForTakeOff = minimumRunwayLengthForTakeOff;
     }
