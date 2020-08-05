@@ -8,8 +8,8 @@ package com.zadziarnouski.Lesson4;
 
 public class Task23 {
     public static void main(String[] args) {
-        String str = " <p>Это первый абзац.</p><p>Это второй абзац.</p> <p id=\"test\" > Это третий абзац.</p> <p style=\"test\"> Ну и это последний абзац.</p>";
-        String strNew = str.replaceAll(" \\<(/?[^>]+)> ", "<p>");
+        String str = " <p>Это первый абзац.</p><p>Это второй абзац.</p> <p id=\"test\"> Это третий абзац.</p> <p style=\"test\"> Ну и это последний абзац.</p>";
+        String strNew = str.replaceAll("<p [a-z0-9=\"]*>", "<p>");
         System.out.println(strNew);
     }
 }

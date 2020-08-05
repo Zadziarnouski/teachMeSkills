@@ -19,6 +19,7 @@ public class Laptop {
     private String CPU, RAM, HDD;
     int numberOfCompleteWorkCycles;
     static int status = 1;
+    static boolean computerIsOn = false;
 
     public Laptop(String CPU, String RAM, String HDD) {
         this.CPU = CPU;
@@ -29,17 +30,22 @@ public class Laptop {
     }
 
     public void turnOn(int randomNumber) {
-        if (status == 0) {
-            System.out.println("Ноутбук сгорел!");
-            return;
+        if (computerIsOn == false) {
+            if (status == 0) {
+                System.out.println("Ноутбук сгорел!");
+                return;
+            }
+            long random = Math.round(Math.random());
+            if (randomNumber == random) {
+                System.out.println("WELCOME!!!");
+                computerIsOn = true;
+            } else if (randomNumber != random) {
+                System.out.println("Произошёл сбой питания!Ноутбук сгорел!");
+                status--;
+            }
         }
-        long random = Math.round(Math.random());
-        if (randomNumber == random) {
-            System.out.println("WELCOME!!!");
-        } else if (randomNumber != random) {
-            System.out.println("Произошёл сбой питания!Ноутбук сгорел!");
-            status--;
-        }
+        else System.out.println("Компьютер уже включён.");
+
 
     }
 

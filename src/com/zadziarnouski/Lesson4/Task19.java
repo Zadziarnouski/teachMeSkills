@@ -11,14 +11,14 @@ import java.util.StringTokenizer;
 
 public class Task19 {
     public static void main(String[] args) {
-        String str = "Та самая строка, над которой я буду эксперементировать. ";
+        String str = "This string,for example,contains seven words.";
         int counter = 0;
-        StringTokenizer tokenizer = new StringTokenizer(str, " ");
+        StringTokenizer tokenizer = new StringTokenizer(str," ,");
         while (tokenizer.hasMoreTokens()) {
             tokenizer.nextToken();
             counter++;
         }
-        System.out.println(counter);
+        System.out.println("В данном тексте " + counter + " слов.");
     }
 
 
