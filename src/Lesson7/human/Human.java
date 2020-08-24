@@ -1,8 +1,8 @@
 package Lesson7.human;
 
-import com.zadziarnouski.Lesson7.human.jackets.IJacket;
-import com.zadziarnouski.Lesson7.human.pants.IPants;
-import com.zadziarnouski.Lesson7.human.shoes.IShoes;
+import Lesson7.human.jackets.IJacket;
+import Lesson7.human.pants.IPants;
+import Lesson7.human.shoes.IShoes;
 
 public class Human implements IHuman {
     private IJacket jacket;

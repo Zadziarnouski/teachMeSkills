@@ -1,8 +1,8 @@
 package Lesson7.robot;
 
-import com.zadziarnouski.Lesson7.robot.hands.*;
-import com.zadziarnouski.Lesson7.robot.heads.*;
-import com.zadziarnouski.Lesson7.robot.legs.*;
+import Lesson7.robot.hands.*;
+import Lesson7.robot.heads.*;
+import Lesson7.robot.legs.*;
 
 
 public class Run {
