@@ -1,8 +1,8 @@
 package Lesson7.robot;
 
-import com.zadziarnouski.Lesson7.robot.hands.IHand;
-import com.zadziarnouski.Lesson7.robot.heads.IHead;
-import com.zadziarnouski.Lesson7.robot.legs.ILeg;
+import Lesson7.robot.hands.IHand;
+import Lesson7.robot.heads.IHead;
+import Lesson7.robot.legs.ILeg;
 
 public class Robot implements IRobot {
     private IHead head;

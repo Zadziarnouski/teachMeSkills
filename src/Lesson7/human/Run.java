@@ -1,8 +1,8 @@
 package Lesson7.human;
 
-import com.zadziarnouski.Lesson7.human.jackets.*;
-import com.zadziarnouski.Lesson7.human.pants.*;
-import com.zadziarnouski.Lesson7.human.shoes.*;
+import Lesson7.human.jackets.*;
+import Lesson7.human.pants.*;
+import Lesson7.human.shoes.*;
 
 public class Run {
     public static void main(String[] args) {
