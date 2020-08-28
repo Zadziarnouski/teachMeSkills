@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<devices>
+    <device code="AA3456789012">
+        <name>GeForce GTX 1660 Super</name>
+        <origin>China</origin>
+        <price currency="USD">100.0</price>
+        <type>Graphics card</type>
+        <powerUsage>450</powerUsage>
+        <port>HDMI</port>
+        <port>DisplayPort</port>
+        <isPeripheralDevice>false</isPeripheralDevice>
+        <isCooler>true</isCooler>
+        <IsTheAbsenceCritical>true</IsTheAbsenceCritical>
+    </device>
+    <device code="AA3456789013">
+        <name>Intel Core i5-10400</name>
+        <origin>China</origin>
+        <price currency="BYN">530.0</price>
+        <type>CPU</type>
+        <powerUsage>65</powerUsage>
+        <isPeripheralDevice>false</isPeripheralDevice>
+        <isCooler>false</isCooler>
+        <IsTheAbsenceCritical>true</IsTheAbsenceCritical>
+    </device>
+    <device code="AA3456789014">
+        <name>Gigabyte B450M S2H</name>
+        <origin>Japan</origin>
+        <price currency="EUR">70.0</price>
+        <type>Motherboard</type>
+        <port>USB 2.0</port>
+        <port>USB 2.0</port>
+        <port>USB 3.2 Gen1 Type-A</port>
+        <port>USB 3.2 Gen1 Type-A</port>
+        <port>USB 3.2 Gen1 Type-A</port>
+        <port>HDMI</port>
+        <isPeripheralDevice>false</isPeripheralDevice>
+        <isCooler>true</isCooler>
+        <IsTheAbsenceCritical>true</IsTheAbsenceCritical>
+    </device>
+    <device code="AA3456789015">
+        <name>Intel D3-S4510 480GB</name>
+        <origin>China</origin>
+        <price currency="BYN">420.0</price>
+        <type>SSD</type>
+        <powerUsage>3</powerUsage>
+        <port>SATA 3.0</port>
+        <isPeripheralDevice>true</isPeripheralDevice>
+        <isCooler>false</isCooler>
+        <IsTheAbsenceCritical>true</IsTheAbsenceCritical>
+    </device>
+    <device code="AA3456789016">
+        <name>HyperX Fury 2x8GB DDR4</name>
+        <origin>Korea</origin>
+        <price currency="BYN">210.0</price>
+        <type>RAM</type>
+        <powerUsage>2</powerUsage>
+        <isPeripheralDevice>false</isPeripheralDevice>
+        <isCooler>false</isCooler>
+        <IsTheAbsenceCritical>true</IsTheAbsenceCritical>
+    </device>
+</devices>

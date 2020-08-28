@@ -21,6 +21,7 @@ public class Run {
         IHand toshibaHand = new TohibaHand(175);
         ILeg samsungLeg = new SamsungLeg(225);
 
+
         IRobot robot1 = new Robot(toshibaHead, sonyHand, toshibaLeg);
         IRobot robot2 = new Robot(toshibaHead, toshibaHand, toshibaLeg);
         IRobot robot3 = new Robot(toshibaHead, sonyHand, samsungLeg);

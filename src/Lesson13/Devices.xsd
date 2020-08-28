@@ -3,27 +3,18 @@
     <element name="devices">
         <complexType>
             <sequence>
-                <element name="device" type="string" maxOccurs="unbounded">
+                <element name="device" maxOccurs="unbounded">
                     <complexType>
                         <sequence>
-                            <element name="name" type="string">
-                                <complexType>
-                                    <attribute name="code" type="ID" use="required"/>
-                                </complexType>
-                            </element>
+                            <element name="name" type="string"/>
                             <element name="origin" type="string"/>
-
-                            <element name="price" type="double">
+                            <element name="price">
                                 <complexType>
-                                    <attribute name="currency" default="BYN" >
-                                        <simpleType>
-                                            <restriction base="string">
-                                                <enumeration value="BYN"/>
-                                                <enumeration value="USD"/>
-                                                <enumeration value="EUR"/>
-                                            </restriction>
-                                        </simpleType>
-                                    </attribute>
+                                    <simpleContent>
+                                        <extension base="string">
+                                            <attribute name="currency" type="string"/>
+                                        </extension>
+                                    </simpleContent>
                                 </complexType>
                             </element>
 
@@ -40,12 +31,19 @@
                                     </restriction>
                                 </simpleType>
                             </element>
-                            <element name="powerUsage" type="int"/>
-                            <element name="port" type="string" maxOccurs="unbounded"/>
+                            <element name="powerUsage" type="int" minOccurs="0" maxOccurs="1"/>
+                            <element name="port" type="string" minOccurs="0" maxOccurs="unbounded"/>
                             <element name="isPeripheralDevice" type="boolean" default="false"/>
                             <element name="isCooler" type="boolean" default="false"/>
                             <element name="IsTheAbsenceCritical" type="boolean" default="false"/>
                         </sequence>
+                        <attribute name="code" use="required">
+                            <simpleType>
+                                <restriction base="ID">
+                                    <pattern value="[A-Z]{2}[0-9]{10}"/>
+                                </restriction>
+                            </simpleType>
+                        </attribute>
                     </complexType>
                 </element>
             </sequence>
