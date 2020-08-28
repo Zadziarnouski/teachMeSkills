@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="devices">
+        <complexType>
+            <sequence>
+                <element name="device" type="string" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="name" type="string">
+                                <complexType>
+                                    <attribute name="code" type="ID" use="required"/>
+                                </complexType>
+                            </element>
+                            <element name="origin" type="string"/>
+
+                            <element name="price" type="double">
+                                <complexType>
+                                    <attribute name="currency" default="BYN" >
+                                        <simpleType>
+                                            <restriction base="string">
+                                                <enumeration value="BYN"/>
+                                                <enumeration value="USD"/>
+                                                <enumeration value="EUR"/>
+                                            </restriction>
+                                        </simpleType>
+                                    </attribute>
+                                </complexType>
+                            </element>
+
+                            <element name="type">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <enumeration value="Graphics card"/>
+                                        <enumeration value="CPU"/>
+                                        <enumeration value="HDD"/>
+                                        <enumeration value="SSD"/>
+                                        <enumeration value="Motherboard"/>
+                                        <enumeration value="Cooler"/>
+                                        <enumeration value="RAM"/>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+                            <element name="powerUsage" type="int"/>
+                            <element name="port" type="string" maxOccurs="unbounded"/>
+                            <element name="isPeripheralDevice" type="boolean" default="false"/>
+                            <element name="isCooler" type="boolean" default="false"/>
+                            <element name="IsTheAbsenceCritical" type="boolean" default="false"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
