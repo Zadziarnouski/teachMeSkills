@@ -1,4 +1,4 @@
-package Lesson12.additionalTasks;
+package lesson12.additionalTasks;
 
 import java.io.*;
 

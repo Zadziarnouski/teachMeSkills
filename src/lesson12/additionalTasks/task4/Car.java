@@ -1,4 +1,4 @@
-package Lesson12.additionalTasks.Task4;
+package lesson12.additionalTasks.task4;
 
 import java.io.Serializable;
 import java.util.Objects;

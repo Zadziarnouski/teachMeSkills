@@ -1,12 +1,10 @@
-package Lesson12;
+package lesson12;
 
 /*Задание 33
 Создать файл с текстом, прочитать, подсчитать в тексте количество знаков
 препинания и слов.*/
 
 import java.io.*;
-import java.util.Arrays;
-import java.util.StringTokenizer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

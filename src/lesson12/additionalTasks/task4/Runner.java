@@ -1,4 +1,4 @@
-package Lesson12.additionalTasks.Task4;
+package lesson12.additionalTasks.task4;
 
 /*4) Сеарилизовать объект Автомобиль(Марка, скорость, цена). После
 сериализации произвести обратный процесс*/

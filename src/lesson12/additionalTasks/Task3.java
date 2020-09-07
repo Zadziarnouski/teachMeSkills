@@ -1,4 +1,4 @@
-package Lesson12.additionalTasks;
+package lesson12.additionalTasks;
 
 /*3) Проверка на цензуру:
 Создаете 2 файла.
@@ -26,8 +26,8 @@ public class Task3 {
             String s1 = null;
             String s2 = null;
             s2 = brSecond.readLine();
+            String[] blackList = s2.split(" ");
             while ((s1 = brFirst.readLine()) != null) {
-                String[] blackList = s2.split(" ");
                 for (String s : blackList) {
                     if (s1.contains(s)) {
                         list.add(s1);

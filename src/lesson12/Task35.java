@@ -1,7 +1,6 @@
-package Lesson12;
+package lesson12;
 
 import java.io.*;
-import java.sql.SQLOutput;
 import java.util.Random;
 
 /*

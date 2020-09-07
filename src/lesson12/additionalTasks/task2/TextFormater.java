@@ -1,4 +1,4 @@
-package Lesson12.additionalTasks.Task2;
+package lesson12.additionalTasks.task2;
 
 public class TextFormater {
 
