@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="devices">
+        <complexType>
+            <sequence>
+                <element name="device" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="name" type="string"/>
+                            <element name="origin" type="string"/>
+                            <element name="price">
+                                <complexType>
+                                    <simpleContent>
+                                        <extension base="string">
+                                            <attribute name="currency" type="string"/>
+                                        </extension>
+                                    </simpleContent>
+                                </complexType>
+                            </element>
+
+                            <element name="type">
+                                <simpleType>
+                                    <restriction base="string">
+                                        <enumeration value="Graphics card"/>
+                                        <enumeration value="CPU"/>
+                                        <enumeration value="HDD"/>
+                                        <enumeration value="SSD"/>
+                                        <enumeration value="Motherboard"/>
+                                        <enumeration value="Cooler"/>
+                                        <enumeration value="RAM"/>
+                                    </restriction>
+                                </simpleType>
+                            </element>
+                            <element name="powerUsage" type="int" minOccurs="0" maxOccurs="1"/>
+                            <element name="port" type="string" minOccurs="0" maxOccurs="unbounded"/>
+                            <element name="isPeripheralDevice" type="boolean" default="false"/>
+                            <element name="isCooler" type="boolean" default="false"/>
+                            <element name="IsTheAbsenceCritical" type="boolean" default="false"/>
+                        </sequence>
+                        <attribute name="code" use="required">
+                            <simpleType>
+                                <restriction base="ID">
+                                    <pattern value="[A-Z]{2}[0-9]{10}"/>
+                                </restriction>
+                            </simpleType>
+                        </attribute>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
