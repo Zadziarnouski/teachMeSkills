@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+    <book>
+        <title>Тонкое искусство пофигизма</title>
+        <author>Марк Мэнсон</author>
+        <genre>Научно-популярная литература</genre>
+        <year>2018</year>
+        <id>1786</id>
+        <сoverType>Мягкая обложка</сoverType>
+        <takeAway>false</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>Самый богатый человек в Вавилоне</title>
+        <author>Джордж Клейсон</author>
+        <genre>Бизнес литература</genre>
+        <year>2020</year>
+        <id>3725</id>
+        <сoverType>Мягкая обложка</сoverType>
+        <takeAway>false</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>Семь навыков высокоэффективных людей</title>
+        <author>Стивен Кови</author>
+        <genre>Бизнес литература</genre>
+        <year>2019</year>
+        <id>0303</id>
+        <сoverType>Твёрдая обложка</сoverType>
+        <takeAway>false</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>Джордж Оруэлл</author>
+        <genre>Художественная литератур</genre>
+        <year>2018</year>
+        <id>4369</id>
+        <сoverType>Твёрдая обложка</сoverType>
+        <takeAway>false</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>45 татуировок личности</title>
+        <author>Максим Батырев</author>
+        <genre>Бизнес литература</genre>
+        <year>2017</year>
+        <id>1234</id>
+        <сoverType>Твёрдая обложка</сoverType>
+        <takeAway>true</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>451 градус по Фаренгейту</title>
+        <author>Рэй Брэдбери</author>
+        <genre>Художественная литератур</genre>
+        <year>2016</year>
+        <id>8709</id>
+        <сoverType>Твёрдая обложка</сoverType>
+        <takeAway>true</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>Метро 2035</title>
+        <author>Дмитрий Глуховский</author>
+        <genre>Фантастика, фэнтези</genre>
+        <year>2017</year>
+        <id>4361</id>
+        <сoverType>Мягкая обложка</сoverType>
+        <takeAway>true</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>Легкий способ бросить курить</title>
+        <author>Аллен Карр</author>
+        <genre> Научная и специальная литература</genre>
+        <year>2018</year>
+        <id>0040</id>
+        <сoverType>Мягкая обложка</сoverType>
+        <takeAway>true</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>Java. Руководство для начинающих</title>
+        <author>Герберт Шилдт</author>
+        <genre>Компьютеры и Интернет</genre>
+        <year>2016</year>
+        <id>9999</id>
+        <сoverType>Мягкая обложка</сoverType>
+        <takeAway>false</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+    <book>
+        <title>Философия Java</title>
+        <author>Брюс Эккель</author>
+        <genre>Компьютеры и Интернет</genre>
+        <year>2015</year>
+        <id>1122</id>
+        <сoverType>Твёрдая обложка</сoverType>
+        <takeAway>false</takeAway>
+        <readingRoom>true</readingRoom>
+    </book>
+</library>
