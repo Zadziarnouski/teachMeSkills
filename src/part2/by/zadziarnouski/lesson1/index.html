@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My first page</title>
+  <link rel="stylesheet" href="style.css">
+<script src="jquery.min.js"></script>
+<script>
+
+$(document).ready(function() {
+  $("#button").click(function(){
+   var movie  =  $("#query").val();
+
+   $.ajax({
+     type: 'GET',
+     url: 'https://api.themoviedb.org/3/search/movie',
+     data:{'query' :movie , 'api_key' : 'c66ee86142453fa5dc3016aa91238728'},
+     success: function(data){
+      var table = document.getElementById("mytable");
+      for (var i = 0; i < data.results.length; i++) {
+        $.each(data.results[i], function(data1,data2){
+          var row = table.insertRow();
+          var cell1 = row.insertCell(0);
+          var cell2 = row.insertCell(1);
+          cell1.innerHTML = data1;
+          cell2.innerHTML = data2;
+      })
+     }
+     }
+   });
+// alert(movie);
+ })
+ $("#reset").click(function() {
+  $("#result").load(location.href+" #result>*","");  
+ });
+ })
+</script>
+  </head>
+  <body>
+
+  <div id="search">
+    <h2>Movie search</h2>
+  <form>
+    <input type="text"  id="query" name="query" size="30" placeholder="Enter the name of the movie">
+    <button id="button" type="submit"  onclick="return false">Send</button><input id='reset' type="reset"   value="Reset">
+  </form>
+   </div>
+
+  <div id="result">
+    <table id="mytable">
+    
+    </table>
+  </div>
+  </body>
+</html>
