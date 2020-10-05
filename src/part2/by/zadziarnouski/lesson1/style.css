@@ -1,0 +1,23 @@
+form {
+  text-align: center;
+}
+h2{
+  padding-top: 100px;
+  text-align: center;
+}
+
+#mytable {
+  text-align: center;
+}
+
+table, td {
+ 
+  width: 500px; /* Ширина таблицы */
+  border-collapse: collapse;
+  /* border-collapse: collapse; Убираем двойные линии между ячейками */
+  padding: 3px; /* Поля вокруг содержимого таблицы */
+  border: 1px solid black; /* Параметры рамки */
+  margin: 5px auto 5px; 
+  
+}
+
