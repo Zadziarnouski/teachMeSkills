@@ -9,7 +9,7 @@ package lesson4;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Task18 {
+public class Task1 {
     public static void main(String[] args) {
         String str = "Строковый литерал - это последова:тель-ность символов, заключенных в двойные кавычки.";
         int counter = 0;
@@ -19,6 +19,7 @@ public class Task18 {
         while (matcher.find()) {
             counter++;
         }
+
         System.out.println(String.format("В этом предложении %d знаков припинания или др.символов", counter));
     }
 }

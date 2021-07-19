@@ -8,7 +8,7 @@
 
 package lesson6;
 
-public class Task24 {
+public class task3 {
     public static void main(String[] args) {
 
         class intervalOfTime {

@@ -8,7 +8,7 @@ import java.util.Random;
  * ли его последняя цифра семеркой. Определите, является ли число четным.
  **/
 
-public class Lesson3_8 {
+public class Task8 {
     public static void main(String[] args) {
         Random random = new Random();
         int number = random.nextInt(1000);

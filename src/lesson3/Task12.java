@@ -4,7 +4,7 @@ package lesson3;
  * Задание 10
  * Посчитать факториал числа в границах от 10 до 15 (не используя рекурсию).
  **/
-public class Lesson3_12 {
+public class Task12 {
     public static void main(String[] args) {
         int number = (int) (Math.random() * 1000);
         int factorialOfNumber = 1;

@@ -1,20 +1,20 @@
-package lesson10.additionalTasks.task2;
+package lesson10.additional_tasks.task2;
 
 import java.io.*;
 
 public class Runner {
     public static void main(String[] args) {
-        TextFormater tf = new TextFormater();
         String s = null;
         try (BufferedReader br = new BufferedReader(new FileReader("TextFormater.txt"));
              BufferedWriter bw = new BufferedWriter(new FileWriter("TextFormater2.txt"))) {
 
             while ((s = br.readLine()) != null) {
-                if (tf.isPolindromsInLine(s)) {
+                if (TextFormater.isPolindromsInLine(s)) {
                     bw.write(s + "\n");
-                } else if (tf.numberOfwordsInLine(s) >= 3 && tf.numberOfwordsInLine(s) <= 5) {
+                } else if (TextFormater.numberOfWordsInLine(s) >= 3 && TextFormater.numberOfWordsInLine(s) <= 5) {
                     bw.write(s + "\n");
-                } else continue;
+                } else {
+                }
             }
         } catch (IOException e) {
             System.out.println(e.getLocalizedMessage());

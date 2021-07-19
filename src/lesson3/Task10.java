@@ -9,7 +9,7 @@ import java.util.Random;
  * нему слово «рублей» в правильном падеже.
  **/
 
-public class Lesson3_10 {
+public class Task10 {
     public static void main(String[] args) {
         Random rand = new Random();
         int x = Math.abs(rand.nextInt());

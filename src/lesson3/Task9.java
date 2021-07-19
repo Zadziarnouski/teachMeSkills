@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Имеется прямоугольное отверстие размерами a и b, определить, можно ли его
  * полностью закрыть круглой картонкой радиусом r.
  **/
-public class Lesson3_9 {
+public class Task9 {
     public static void main(String[] args) {
 
         int a = (int) (1 + Math.random() * 10);

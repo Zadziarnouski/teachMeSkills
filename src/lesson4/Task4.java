@@ -8,7 +8,7 @@ package lesson4;
 
 import java.util.GregorianCalendar;
 
-public class Task21 {
+public class Task4 {
     public static void main(String[] args) {
         String str = "Это строка";
         GregorianCalendar startString = new GregorianCalendar();

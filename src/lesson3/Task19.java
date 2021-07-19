@@ -12,7 +12,7 @@ package lesson3;
  * 1 1 1 1 1
  **/
 
-public class Lesson3_19 {
+public class Task19 {
     public static void main(String[] args) {
         int[][] array = new int[5][];
         for (int i = 0; i < array.length; i++) {

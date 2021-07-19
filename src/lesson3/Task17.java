@@ -7,7 +7,7 @@ package lesson3;
  * еще один массив).
  **/
 
-public class Lesson3_17 {
+public class Task17 {
     public static void main(String[] args) {
         int[] array = {1, 3, 5, 7, 9, 11, 13, 14, 15};
         for (int i = 0; i < array.length; i++) {

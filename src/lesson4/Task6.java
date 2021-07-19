@@ -6,7 +6,7 @@
  */
 package lesson4;
 
-public class Task23 {
+public class Task6 {
     public static void main(String[] args) {
         String str = " <p>Это первый абзац.</p><p>Это второй абзац.</p> <p id=\"test\" > Это третий абзац.</p> <p style=\"test\"> Ну и это последний абзац.</p>";
         String strNew = str.replaceAll("<p [a-z1-9=\"]*( )*>", "<p>");

@@ -10,7 +10,7 @@ import java.util.Set;
 Создать коллекцию, наполнить ее случайными числами. Удалить повторяющиеся
 числа.
 */
-public class Task30 {
+public class Task2 {
     public static void main(String[] args) {
         List<Integer> randomNumbers = new ArrayList<>();
         randomNumbers.add(1);

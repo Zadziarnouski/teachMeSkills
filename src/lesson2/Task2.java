@@ -8,7 +8,7 @@ import java.util.Scanner;
 Если хотя бы в одном случае отрезококажется больше суммы двух других, то треугольника
  с такими сторонами несуществует.
  */
-public class Lesson2_2 {
+public class Task2 {
     public static void main(String... args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите пожалуйста значения 3-ёх сторон треугольника, после ввода каждой из сторон нажмите \"Enter\"");

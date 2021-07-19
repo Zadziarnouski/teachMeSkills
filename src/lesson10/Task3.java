@@ -8,7 +8,7 @@ import java.util.Random;
 Записать в двоичный файл 20 случайных чисел. Прочитать записанный файл,
 распечатать числа и их среднее арифметическое.
 */
-public class Task35 {
+public class Task3 {
     public static void main(String[] args) {
         Random random = new Random();
         try (DataOutputStream dos = new DataOutputStream(new FileOutputStream("data.dat"))) {

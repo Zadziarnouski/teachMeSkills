@@ -9,7 +9,7 @@ import java.util.List;
 Создать список оценок учеников с помощью ArrayList, заполнить случайными
 оценками. Найти самую высокую оценку с использованием итератора.
 */
-public class task31 {
+public class Task3 {
     public static void main(String[] args) {
         int appraisalsMax = 0;
 

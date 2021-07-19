@@ -5,7 +5,7 @@ package lesson3;
  * норму на 10% нормы предыдущего дня. Какойсуммарный путь пробежит спортсмен за 7 дней?
  **/
 
-public class Lesson3_1 {
+public class Task1 {
     public static void main(String[] args) {
         double distance = 10.0;
         double total_distance = 10.0;

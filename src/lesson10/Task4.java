@@ -8,7 +8,7 @@ import java.util.Arrays;
 Вывести список файлов и каталогов выбранного каталога на диске. Файлы и каталоги
 должны быть распечатаны отдельно.
 */
-public class Task36 {
+public class Task4 {
     public static void main(String[] args) {
         File directory = new File("/home/taras/Programming/IdeaProjects/TeachMeSkills/src/");
         System.out.println(directory.isDirectory());

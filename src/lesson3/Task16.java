@@ -6,7 +6,7 @@ package lesson3;
  * минимальную оценку, её (их) номера.
  **/
 
-public class Lesson3_16 {
+public class Task16 {
     public static void main(String[] args) {
         int[] assessments = {5, 3, 6, 7, 8, 6, 7, 8, 9, 4, 1, 2, 4, 5, 6};
         int minIndex = 0;

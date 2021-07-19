@@ -8,7 +8,7 @@ import java.util.Random;
  * из них.
  **/
 
-public class Lesson3_15 {
+public class Task15 {
     public static void main(String[] args) {
         Random rand = new Random();
         int array[] = new int[10];

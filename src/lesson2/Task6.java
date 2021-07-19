@@ -4,7 +4,7 @@ import java.util.Scanner;
 /**
  * Даны 2 числа. Вывести большее из них.
  **/
-public class Lesson2_6 {
+public class Task6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();

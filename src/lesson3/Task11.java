@@ -6,7 +6,7 @@ package lesson3;
  * произведение, т.е. факториал числа.
  **/
 
-public class Lesson3_11 {
+public class Task11 {
     public static void main(String[] args) {
         int factorialOfNumber = 1;
         int number = (int) (Math.random() * 10);

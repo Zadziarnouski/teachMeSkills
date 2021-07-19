@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Если отрицательным, то вычесть из него 2.
  * Если нулевым, то заменить его на 10. Вывести полученное число.
  **/
-public class Lesson2_3 {
+public class Task3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();

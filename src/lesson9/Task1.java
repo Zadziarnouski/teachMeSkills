@@ -7,7 +7,7 @@ import java.util.List;
 Создать список оценок учеников с помощью ArrayList, заполнить случайными
 оценками. Удалить неудовлетворительные оценки из списка.
 */
-public class Task29 {
+public class Task1 {
     public static void main(String[] args) {
         List<Integer> assesments = new ArrayList<>();
         assesments.add(9);

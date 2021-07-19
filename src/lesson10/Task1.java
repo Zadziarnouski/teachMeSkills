@@ -8,7 +8,7 @@ import java.io.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Task33 {
+public class Task1 {
     public static void main(String[] args){
 
         String str = new String("Мы урожая ждем от лучших лоз,\n" +

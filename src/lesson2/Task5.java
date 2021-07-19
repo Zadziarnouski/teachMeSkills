@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Даны 3 целых числа. Найти количество положительных и отрицательныхчисел в исходном наборе.
  **/
-public class Lesson2_5 {
+public class Task5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();

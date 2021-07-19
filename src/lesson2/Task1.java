@@ -2,7 +2,7 @@ package lesson2;
 
 import java.util.Scanner;
 
-public class Lesson2_1 {
+public class Task1 {
     public static void main(String[] args) {
         System.out.println("Запишите ваше число, пожалуйста!");
         Scanner sc = new Scanner(System.in);

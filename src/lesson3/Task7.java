@@ -4,7 +4,7 @@ package lesson3;
  * 7)Напишите программу, определяющую сумму всех нечетных чисел от 1до 99
  **/
 
-public class Lesson3_7 {
+public class Task7 {
     public static void main(String[] args) {
         int summ = 0;
         for (int i = 1; i < 99; i++) {

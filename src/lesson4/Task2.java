@@ -9,7 +9,7 @@ package lesson4;
 
 import java.util.StringTokenizer;
 
-public class Task19 {
+public class Task2 {
     public static void main(String[] args) {
         String str = "Та самая строка, над которой я буду эксперементировать. ";
         int counter = 0;

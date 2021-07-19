@@ -8,7 +8,7 @@ import java.util.Scanner;
  * • 1 программиста • 10 программистов • и т.д.
  **/
 
-public class Lesson2_7 {
+public class Task7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int countOfProgrammer = sc.nextInt();

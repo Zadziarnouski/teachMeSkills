@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Найдите сумму первых n целых чисел, которые делятся на 3.
  **/
 
-public class Lesson3_14 {
+public class Task14 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

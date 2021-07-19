@@ -6,7 +6,7 @@ package lesson3;
  * минимальным и максимальным значениями.
  **/
 
-public class Lesson3_18 {
+public class Task18 {
     public static void main(String[] args) {
         int[] array = {3, 2, 4, 6, 13, 32, 21, 12, 5, 17,};
         int minIndex = 0;

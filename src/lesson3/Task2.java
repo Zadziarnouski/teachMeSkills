@@ -5,7 +5,7 @@ package lesson3;
  **/
 
 
-public class Lesson3_2 {
+public class Task2 {
     public static void main(String[] args) {
         int countOfAmoeba = 1;
         int amoebas[] = new int[8];

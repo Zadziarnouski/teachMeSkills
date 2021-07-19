@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 распечатать, посчитать сумму, убрать все повторяющиеся числа и снова
 распечатать.
 */
-public class Task34 {
+public class Task2 {
     public static void main(String[] args) {
         String str = null;
         List<Integer> list = new ArrayList<>();

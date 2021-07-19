@@ -1,8 +1,8 @@
-package lesson10.additionalTasks.task2;
+package lesson10.additional_tasks.task2;
 
 public class TextFormater {
 
-    public static int numberOfwordsInLine(String s) {
+    public static int numberOfWordsInLine(String s) {
         String[] arr = s.split(" ");
         return arr.length;
     }

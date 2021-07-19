@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Имеется целое число, определить является ли это число простым, т.е.
  * делится без остатка только на 1 и себя.
  **/
-public class Lesson3_13 {
+public class Task13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
